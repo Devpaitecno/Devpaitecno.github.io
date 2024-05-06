@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+  <link rel="stylesheet" href="styles/s.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossOrigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.cs" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossOrigin="anonymous">
+  <link rel="stylesheet" href="css/login.css">
+  <script src="/__/firebase/5.8.4/firebase-app.js"></script>
+  <script src="/__/firebase/5.8.4/firebase-auth.js"></script>
+  <script src="/__/firebase/5.8.4/firebase-database.js"></script>
+  <script src="js/firebase-config.js"></script> 
+
+</head>
+<body>
+  <div  id="sign-up"class="wrapper">
+  <section class="form signup">
+      <header>FJU Social</header>
+    <img class="capa" src="img/cap.jpg">
+    <form  class="form-sign-up">
+  
+      <!--- <div class="error-text">This is an error message!</div>--->
+      <div class="name-details">
+        <div class="field">
+         
+          
+            <input type="text" class="sign-up-ownerName input-sign-up form-control" placeholder="Nome completo" />
+      
+        </div>
+       
+        <div class="field">
+          
+           <input type="text" class="" placeholder="Nome do bairro" />
+       
+        </div>
+      </div>
+        
+        <div class="field">
+          
+          
+             <input type="text" class="sign-up-email input-sign-up form-control" placeholder="E-mail" />
+      
+        </div>
+          <input style="margin-bottom: 10px;"id="date" type="date" class="sign-up-birthday input-sign-up form-control" value="fkfl" placeholder="Aniversário" />
+      
+        <div class="field">
+          
+          
+             <input type="password" class="sign-up-password input-sign-up form-control" placeholder="Senha" />
+    
+        </div>
+         
+        <div class="field">
+          
+          
+                 <select class="sign-up-select input-sign-up form-control">
+            <option value="arcanjo">Arcanjo</option>
+                   <option value="atalaia">Atalaia</option>
+            <option value="cultura">Cultura</option>
+            <option value="esportes">Disporto</option>
+            <option value="assistentes">assistentes</option>
+            <option value="uniforca">unifoça</option>
+            <option value="midia">Midia</option>
+          </select>
+          
+        </div>
+    
+      
+    </form>
+      <div class="field">
+            <button type="button" class="btn btn-dark btn-lg btn-block sign-up-button button">Cadastrar</button>
+     
+        
+      </div>
+    <div class="link">Você tem uma conta?<a href="sign-in.html">Login</a></div>
+    </section>
+  </div>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM crossorigin="
+    anonymous"></script>
+  <script src="js/authentication.js"></script>
+
+</body>
+</html>

@@ -1,28 +1,232 @@
-<!doctype html>
-<html>
-    <head>
-      <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
- 
-      <link rel="stylesheet" href="inicio .css">
-      <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-   
-    </head>
-  
+<!DOCTYPE html>
 
-    <body> 
-        <h1>Bem-vindo</h1>
-      <p>A Força Jovem Universal Social!</p>
-      <div> 
-        <img src="public/img/logo.jpg">
-   
-      </div>
-           <a href="public/index.html"><button>Entrar
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles/style.css"/>
+   <link rel="stylesheet" href="styles/feed.css"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.ss">
+  <script src="/__/firebase/5.9.1/firebase-app.js"></script>
+  <script src="/__/firebase/5.8.4/firebase-auth.js"></script>
+  <script src="/__/firebase/5.9.1/firebase-database.js"></script>
+
+  <link rel="stylesheet" href="css/.css">
+<!---perfil-->
+  <script src="/__/firebase/5.9.1/firebase-app.js"></script>
+  <script src="/__/firebase/5.8.4/firebase-auth.js"></script>
+  <script src="/__/firebase/5.9.1/firebase-database.js"></script>
+
+</!---perfil-->
+
+  <title>Hello, World!</title>
+<style>
+ .contaier{
+
+}
+</style>
+</head>
+<body>
+  
+  <div class="contaier">
+    <!--barra do toupo--></!--barra>
+    <div class="top" >
+      
+     
+        <nav class="colapse">
           
-                
-</button></a>
+            <input type="checkbox" name="menu" id="menu">
+            <label for="menu"></label>
+            <div class="menu-content">
+                <ul class="menu">
+                    <li>PÁGINA INICIAL</li>
+                    <li>TOP POSTS</li>
+                  <a href="biblia/bi.html"><li>Biblia</li></a>
+                    <li>NOTIFICAÇÕES</li>
+                    <li>MENSAGENS</li>
+                  <a href="sign-in.html"><li>criar conta</li></a>
+                    <li id="logout">SAIR</li>
+                </ul>
+            </div>
+        </nav>
+    
+               
+
+      <label class="owner-name">januario bernardo<strong>On</strong></label>
+      <div>
+       
         
-    </body>
+        
+          
+        <a href="add.html"><img src="img/add.png"  ></a>
+        <a href="friends.html"><img src="img/contact.png"></a>
+          
+        <a href="profile.html"><img  class="pet-image"src="img/perfil.png"></a>
+ 
+      </div>
+      </div>    
+    </div>
+  <div class="space"></div>
+      <!--barra de baixo do toupo-->
+      <div class="barra">
+        <img class="logo"src="img/logo.jpg">
+       <div class="bar-link">
+         <a href="#"  onclick="sendMsg()" ><img src="img/chat.png"></a>
+         <a href="#"><img src="img/foto.png"></a>
+         <a href="#"><img src="img/video.png"></a>
+       </div>
+      </div>
+      
+    </!--barra>
+<div class="space"></div>
+  <!--capa-->
+  <div class="capa">
+    <button>Palavra do Dia</button>
+    <button>Ver Temas</button>
+  </div>
+  
+</!--capa-->
+<!---projetos-->
+<div class="wrapper">
+           <div id="sample">
+ 
+<div class="atividades">
+<div class="projetos">
+  <div class="bar">
+    
+    
+    <h2>Projetos</h2> 
+    <img src="img/next.png">
+  </div>
+  
+  <div class="bloco">
+    <a href="#"><button><img src="projetos/arcanjos.png"></button></a>
+    <a href="projeto/esporte.html"><button><img class="bo" src="projetos/esportes.png"></button></a>
+<a href="#"><button><img src="projetos/cultura.png"></button></a>
+    <a href="#"><button><img class="bo"src="projetos/help.png"></button></a>
+  </div>
+  
+</div>
+
+</!---projetos--> 
+<!--tribos-->
+
+<div class="projetos">
+  <div class="bar">
+    <h2>Tribos</h2>
+    <img src="img/next.png">
+  </div>
+  
+  <div class="bloco-tribo">
+    <a href="#"><img src="tribo/04.png"></a>
+    <a href="#"><img class="" src="tribo/06.png"></a>
+  </div>
+  
+</div>
+
+</!--tribos-->
+</div>
+        </div>
+  <button class="ab"onclick="show();"> Abrir </button>
+  <button class="ab"onclick="hide();"> Fechar</button>
+  </div>
+
+<!---publicacoes--->
+
+<main class="container-fluid">
+    <div class="row m-0">
+      <section class="col-1 d-none d-lg-block d-xl-block"></section>
+      <!-- <aside class="col-3 d-none d-lg-block d-xl-block text-center pt-4 with-box">
+        <img class="rounded-circle" width="100" src="" data-profile-pic />
+        <h4 class="text-capitalize" data-profile-petname>Anonimous</h4>
+        <hr>
+        <h6>Amigos</h6>
+        <ul class="list-unstyled" id="friends-list">
+          <template>
+            <li class="d-inline-block m-2" data-friend-id="{{ID}}">
+              <img class="rounded-circle friend-list-image" src="{{PIC}}" title="{{NAME}}" />
+            </li>
+          </template>
+        </ul>
+        <hr>
+        <h5>Sugestão de Amigos</h5>
+        <ul class="list-unstyled friend-suggestion-list"></ul>
+      </aside>
+      <section class="col-xl-7 col-lg-7 col-sm-12 col-md-12">
+        <section class="post-box w-100 px-1 py-2 with-box">
+          <div class="row p-3">
+            <div class="col-1 px-0 pl-1">
+              <img class="rounded-circle post-profile-pic" src="" data-profile-pic />
+            </div>
+            <div class="col-11">
+              <textarea id="text-area" class="text-area w-100" type="text" placeholder="Digite seu post"
+                rows="5"></textarea>
+            </div>
+          </div>
+          <hr>
+          <div class="row px-3" class="m-top">
+            <div class="col-12 text-right">
+              <select id="visibility" class="select-visibility">
+                <option value="public"><i class="fa fa-globe"></i>Público</option>
+                <option value="private"><i class="fa fa-users"></i>Amigos</option>
+              </select>
+           
+              <button id="btn-publish" type="button" class="btn btn-dark" disabled="disabled">Publicar</button>
+            </div>
+          </div>--->
+        </section>
+        <article class="w-100 px-1">
+          <ul id="posts" class="list-unstyled p-2">
+          </ul>
+        </article>
+      </section>
+      <section class="col-1 d-none d-lg-block d-xl-block"></section>
+    </div>
+  </main>
+  </!---publicacoes--->
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/firebase-config.js"></script>
+  <script src="js/authentication.js"></script>
+  <script src="js/Repository.js"></script>
+  <script src="js/timeline.js"></script>
+
+
+<script src="scripts/srcipt.js"></script>
+<!----scripts perfil-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/firebase-config.js"></script>
+  <script src="js/authentication.js"></script>
+  <script src="js/Repository.js"></script>
+  <script src="js/profile.js"></script>
+
+</!----scripts--->
+<script type="text/javascript">
+    function show() {
+      document.getElementById("sample").style.display = "block";
+    }
+  
+    function hide() {
+      document.getElementById("sample").style.display = "none";
+    }
+</script>
+</body>
 </html>
